@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-        String filePath = "J:\\SourceCodeSpike\\SourceCodeExample\\src\\main\\java\\org\\example\\ExampleFile.java";
+        String filePath = "src/main/java/org/example/ExampleFile.java";
 
         try {
             String functionCode = new String(Files.readAllBytes(Paths.get(filePath)));

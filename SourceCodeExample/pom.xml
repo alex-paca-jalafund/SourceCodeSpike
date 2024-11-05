@@ -42,7 +42,13 @@
             <artifactId>byte-buddy-agent</artifactId>
             <version>1.12.23</version>
         </dependency>
-        
+
+        <dependency>
+            <groupId>com.github.javaparser</groupId>
+            <artifactId>javaparser-core</artifactId>
+            <version>3.25.4</version>
+        </dependency>
+
         <dependency>
             <groupId>org.antlr</groupId>
             <artifactId>antlr4</artifactId>
