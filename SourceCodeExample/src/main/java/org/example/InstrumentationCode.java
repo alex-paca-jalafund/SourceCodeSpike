@@ -1,6 +1,6 @@
 package org.example;
 
-public class NamingConventionVisitor extends JavaFunctionBaseVisitor<Void> {
+public class InstrumentationCode extends JavaFunctionBaseVisitor<Void> {
 
     private StringBuilder instrumentedCode = new StringBuilder();
 
@@ -15,6 +15,4 @@ public class NamingConventionVisitor extends JavaFunctionBaseVisitor<Void> {
         return instrumentedCode.toString();
     }
 
-    
 }
-

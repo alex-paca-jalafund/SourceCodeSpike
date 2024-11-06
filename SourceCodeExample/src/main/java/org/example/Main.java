@@ -24,7 +24,7 @@ public class Main {
 
             ParseTree tree = parser.compilationUnit();
 
-            NamingConventionVisitor visitor = new NamingConventionVisitor();
+            InstrumentationCode visitor = new InstrumentationCode();
             visitor.visit(tree);
             System.out.println(visitor.getInstrumentedCode());
 
